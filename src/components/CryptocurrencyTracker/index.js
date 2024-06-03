@@ -34,7 +34,7 @@ class CryptocurrencyTracker extends Component {
   }
 
   renderCryptocurrenciesList = () => {
-    const {cryptocurrenciesData} = this.state
+    const {cryptocurrenciesData} = this.props
 
     return <CryptocurrenciesList cryptocurrenciesData={cryptocurrenciesData} />
   }
